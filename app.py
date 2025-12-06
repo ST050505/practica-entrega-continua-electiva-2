@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Versión nueva desplegada automáticamente!"
+    return "Hello Wolrd! Desde la última versión de esta práctica ya desplegada en Render."
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000)
